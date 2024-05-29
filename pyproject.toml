@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aitk-540-t5-for-nli-task-testing"
+version = "0.1.0"
+description = ""
+authors = ["nichnikov <a.nichnikov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+torch = "^2.3.0"
+transformers = "^4.41.1"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
